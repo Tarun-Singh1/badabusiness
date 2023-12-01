@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat+Alternates:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="site-header">
+      <div class="image-container">
+        <img src="./images/1.png" alt="Image 1" class="left-image">
+        <img src="./images/2.png" alt="Image 2" class="right-image">
+    </div>
+    
+    </header>
+
+
+    <!--Section 1-->
+    <section class="section-1">
+      <div class="section-container">
+          <div class="form-container">
+
+    <h2>Register Now</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+            <label for="country-code">Country Code:</label>
+            <select id="country-code" name="country-code" required>
+              <option value="" disabled selected>Select your country code</option>
+              <!-- Add options for country codes here -->
+              <option >+91(India)</option>
+             
+          </select>
+          
+            <input type="text" id="phone" name="phone" placeholder="Mobile number" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="state">State:</label>
+            <select id="state" name="state" required>
+                <!-- Add options for states here -->
+                <option value="100030">Andaman and Nicobar</option>
+                    <option value="732">Andhra Pradesh</option>
+                    <option value="100056">Arunachal Pradesh</option>
+                    <option value="733">Assam</option>
+                    <option value="734">Bihar</option>
+                    <option value="735">Chandigarh</option>
+                    <option value="736">Chhattisgarh</option>
+                    <option value="100040">Dadra and Nagar Haveli</option>
+                    <option value="100039">Daman &amp; diu</option>
+                    <option value="737">Delhi</option>
+                    <option value="6180">Goa</option>
+                    <option value="738">Gujarat</option>
+                    <option value="739">Haryana</option>
+                    <option value="100057">Himachal Pradesh</option>
+                    <option value="740">Jammu and Kashmir</option>
+                    <option value="741">Jharkhand</option>
+                    <option value="742">Karnataka</option>
+                    <option value="743">Kerala</option>
+                    <option value="100038">Lakshadweep</option>
+                    <option value="744">Madhya Pradesh</option>
+                    <option value="745">Maharashtra</option>
+                    <option value="746">Manipur</option>
+                    <option value="747">Meghalaya</option>
+                    <option value="748">Mizoram</option>
+                    <option value="100058">Nagaland</option>
+                    <option value="749">Odisha</option>
+                    <option value="750">Puducherry</option>
+                    <option value="751">Punjab</option>
+                    <option value="752">Rajasthan</option>
+                    <option value="100059">Sikkim</option>
+                    <option value="753">Tamil Nadu</option>
+                    <option value="100048">Telangana</option>
+                    <option value="754">Tripura</option>
+                    <option value="755">Uttar Pradesh</option>
+                    <option value="756">Uttarakhand</option>
+                    <option value="757">West Bengal</option>
+            </select>
+        </div>
+        <button class="button1" type="submit" onclick="submitForm()">Submit</button>
+    </form>
+</div>
+
+</div>
+</section>
+
+<!--Section 2-->
+<!-- Section 2 -->
+<section class="section-2">
+    <h1 class="section-heading1">Leadership Funnel Program</h1> 
+    <div class="section-container1">
+      <div class="text1-container1">
+        <p>Today, every leader is investing his time, energy, and money in honing their existing skillset. Very few understand that if the mindset is adjusted, the skillset will automatically be improved.</p>
+        <ul>
+          <li>Live Sessions with Dr. Vivek Bindra</li>
+          <li>Interactive Events with Top Billionaire Speakers</li>
+          <li>Get Your Queries Resolved at Q&A Session</li>
+          <li>Attend 3 Days Event at a 4/5 Star Hotel With Breakfast, Lunch & Tea.
+          </li>
+        </ul>
+      </div>
+      <div class="image1-container1">
+        <img src="https://th.bing.com/th/id/OIP.rs5mFLiMv5H8vyU9qP2txAHaGl?rs=1&pid=ImgDetMain" alt="Leadership Image">
+      </div>
+    </div>
+  </section>
+  
+<!-- Section 3 -->
+<section class="section-3">
+    <div class="section-container3">
+        <h1 class="section-heading3" onclick="redirectToWhatsApp()">Join The Program</h1>
+        <a href="https://youtu.be/s4lA_9VMUCo?feature=shared" target="_blank" class="image-link3">
+            <img src="./images/bada.png" alt="Registration Image">
+        </a>
+    </div>
+</section>
+
+    <!-- Section 4 -->
+    <section class="section-4">
+        <div class="section-container4">
+            <h1 class="section-heading4">Program Features</h1>
+            <div class="button-container4">
+                <div class="primary-buttons-column">
+                    <button class="primary-button">3 Days Training Session</button>
+                    <button class="primary-button">Dedicated Business Coach</button>
+                    <button class="primary-button">Billionaire Professors</button>
+                </div>
+                <div class="secondary-buttons-column">
+                    <button class="secondary-button">Complimentary LTM</button>
+                    <button class="secondary-button">52 Frameworks</button>
+                    <button class="secondary-button">Events in 4/5 Star Hotel</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Section 5 -->
+<section class="section-5">
+    <h1 class="section-heading5">How It Will Benefit You</h1> 
+    <div class="section-container5">
+        <div class="image1-container5">
+            <img src="https://img.freepik.com/free-vector/tiny-people-saving-money-piggy-bank-isolated-flat-illustration_74855-11124.jpg" alt="Leadership Image">
+          </div>
+      <div class="text5-container5">
+        <ul>
+          <li>Live Sessions with Dr. Vivek Bindra</li>
+          <li>Interactive Events with Top Billionaire Speakers</li>
+          <li>Get Your Queries Resolved at Q&A Session</li>
+          <li>Attend 3 Days Event at a 4/5 Star Hotel With Breakfast, Lunch & Tea.</li>
+        </ul>
+      </div>
+      
+    </div>
+  </section>
+
+<!-- Section 6 -->
+<section class="section-6">
+    <h1 class="section-heading6">Watch Testimonial Videos</h1>
+    <div class="video-container">
+        <a class="video-link" href="https://images.badabusiness.com/website/videos/IBC%20Nadeem%20Testimonials.mp4" target="_blank">
+            <video controls>
+                <source src="https://images.badabusiness.com/website/videos/IBC%20Nadeem%20Testimonials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <a class="video-link" href="https://images.badabusiness.com/website/videos/Raw%20Yogesh%20Testimonials.mp4" target="_blank">
+            <video controls>
+                <source src="https://images.badabusiness.com/website/videos/Raw%20Yogesh%20Testimonials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+        <a class="video-link" href="https://images.badabusiness.com/website/videos/Akash%20Testimonials.mp4" target="_blank">
+            <video controls>
+                <source src="https://images.badabusiness.com/website/videos/Akash%20Testimonials.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+    </div>
+</section>
+
+<!-- Section 7 -->
+<section class="section-7">
+    <div class="client-container">
+        <div class="client-image"></div>
+        <div class="client-info">
+            <h2>Learn from</h2>
+            <h1>Dr. Vivek Bindra</h1>
+            <h3>Founder & CEO - Bada Business</h3>
+            <p>Dr Vivek Bindra is a Revolutionary Entrepreneur, an Internationally  Acclaimed Motivational Speaker and a Business Coach.<br> A Trusted Advisor for more  than 500+ Corporate Houses and Entrepreneurs, he is the Recipient of more than 100 Globally Admired Awards.</p>
+            <a href="https://www.badabusiness.com/about-dr-vivek-bindra/" class="read-more">Read more</a>
+        </div>
+    </div>
+</section>
+
+
+<!--Section 8-->
+<!-- Section 8 Heading -->
+
+
+<h1 class="section-heading8">List of top Industrials</h1>
+
+<div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <div class="cards-wrapper">
+        <div class="col-lg-4">
+           <img src="https://assets.badabusiness.com/home/images/speak_7.png" height="140" width="140" />
+            <h2 class="fw-normal">Dr. Arvind Lal</h2>
+            <p>Chairman- Dr. Lal Pathlabs</p>
+
+          </div>
+          <div class="col-lg-4">
+            <img src="https://assets.badabusiness.com/home/images/speak_8.png" height="140" width="140" />
+             <h2 class="fw-normal">Acharya Balkrishna</h2>
+             <p>Chairman- Patanjali</p>
+
+           </div>
+           <div class="col-lg-4">
+            <img src="https://assets.badabusiness.com/home/images/speak_9.png" height="140" width="140" />
+             <h2 class="fw-normal">Mr. P.K. Gupta</h2>
+             <p>Managing Director- SBI</p>
+
+           </div>
+       </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_10.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Devi Shetty</h2>
+                 <p>Founder- Narayan Health</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_16.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mrs Kalpana Saroj</h2>
+                 <p>Chairperson- Kamani Tubes</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_12.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Ashish Chauhan</h2>
+                 <p>Managing Director & CEO - Bombay Stock Exchange</p>
+ 
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_13.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Ridham Desai</h2>
+                 <p>Managing Director- Morgan Stanley India</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_14.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Nirmal Jain</h2>
+                 <p>Chairman- India Infoline Limited</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_15.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Deepak Bagla</h2>
+                 <p>Managing Director & CEO- Invest India</p>
+
+               </div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_17.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Sanjiv Bajaj</h2>
+                 <p>Vice Chairman- Bajaj Capital</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_18.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Boman Irani</h2>
+                 <p>Film Actor</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_19.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Vivek Oberoi</h2>
+                 <p>Film Actor/ Businessman/ Investor</p>
+
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_20.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Rajkumar Rao</h2>
+                 <p>Film Actor</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_14.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Nirmal Jain</h2>
+                 <p>Chairman- India Infoline Limited</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_15.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Deepak Bagla</h2>
+                 <p>Managing Director & CEO- Invest India</p>
+
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_21.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Sanjeev Kapoor</h2>
+                 <p>Masterchief India & Co-Founder Wonderchief</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_14.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Nirmal Jain</h2>
+                 <p>Chairman- India Infoline Limited</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_15.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Deepak Bagla</h2>
+                 <p>Managing Director & CEO- Invest India</p>
+
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+            <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_13.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Ridham Desai</h2>
+                 <p>Managing Director- Morgan Stanley India</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_14.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Nirmal Jain</h2>
+                 <p>Chairman- India Infoline Limited</p>
+
+               </div>
+               <div class="col-lg-4">
+                <img src="https://assets.badabusiness.com/home/images/speak_15.png" height="140" width="140" />
+                 <h2 class="fw-normal">Mr. Deepak Bagla</h2>
+                 <p>Managing Director & CEO- Invest India</p>
+
+               </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<!-- Section 10 -->
+<section class="section-10">
+    <div class="contact-container">
+        <!-- Container 1: Brand Logo and Company Info -->
+        <div class="brand-container">
+            <img src="https://mydvc.in/admin/ads/3213_Picture2.png" alt="Brand Logo">
+            <p>About the Company - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+<!-- Container 2: Contact Information -->
+<div class="contact-info-container">
+    <h2>Contact Us</h2>
+    <div class="contact-detail">
+        <img src="https://images.badabusiness.com/bb-website-prod/assets/lfp/images/call_img.png" alt="Phone Icon">
+        <a href="tel:+123456789">Call: 9088948344</a>
+    </div>
+    <div class="contact-detail">
+        <img src="https://images.badabusiness.com/bb-website-prod/assets/lfp/images/mail_img.png" alt="Email Icon">
+        <a href="mailto:info@example.com">Email: alikhan1947@gmail.com</a>
+    </div>
+    <div class="contact-detail">
+        <img src="https://images.badabusiness.com/bb-website-prod/assets/lfp/images/map_img.png" alt="Visit Icon">
+        <a href="https://www.example.com/contact">Plot No-15, Okhla Phase 3, New Delhi-110020</a>
+    </div>
+</div>
+
+
+        <!-- Container 3: App Store Links -->
+        <div class="app-store-container">
+            <h2>Links</h2>
+            <a href="https://play.google.com/store/apps/details?id=com.drbindra.badabusiness&hl=en_IN&gl=US"><img src="https://th.bing.com/th/id/R.a5c4a0ae0a1684828655ea8f51d7d190?rik=fO8ghz3gzTM4ow&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fgoogle-play-icon-transparent%2fgoogle-play-icon-transparent-5.png&ehk=X6UOUpA%2bOVni4FAfy4Byq57nRBDLCnPCJ%2bi%2fYUt0OWc%3d&risl=&pid=ImgRaw&r=0" alt="Google Play Store"></a>
+            <a href="https://apps.apple.com/in/app/bada-business-community/id1462564584"><img src="https://th.bing.com/th/id/R.a5c4a0ae0a1684828655ea8f51d7d190?rik=fO8ghz3gzTM4ow&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fgoogle-play-icon-transparent%2fgoogle-play-icon-transparent-5.png&ehk=X6UOUpA%2bOVni4FAfy4Byq57nRBDLCnPCJ%2bi%2fYUt0OWc%3d&risl=&pid=ImgRaw&r=0" alt="Apple App Store"></a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-link">
+            <a href="https://www.badabusiness.com/terms-and-conditions">Terms and Conditions</a>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-link">
+            <a href="https://www.badabusiness.com/privacy-and-policy">Privacy Policy</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright ©Bada Business Pvt Ltd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js" charset="UTF-8"></script>
+</body>
+</html>
